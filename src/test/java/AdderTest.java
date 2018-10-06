@@ -8,7 +8,7 @@ public class AdderTest {
 	public void testDefault() {
 		Adder adder = new Adder();
 		int sum = adder.getDefaultSum();
-		assertEquals(sum, 5);
+		assertEquals(sum, 10);
 	}
 	
 	

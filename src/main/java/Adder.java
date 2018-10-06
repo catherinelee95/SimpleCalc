@@ -1,6 +1,6 @@
 
 public class Adder {
-	public int x = 0;
+	public int x = 5;
 	public int y = 5;
 	
 	public int getDefaultSum() {
