@@ -11,7 +11,7 @@ public class AdderTest {
 		int b = 1;
 		
 		Adder adder = new Adder();
-		int sum = adder.getDiff(a, b);
+		int sum = adder.getSum(a, b);
 		assertEquals(sum, 1);
 	}
 	
