@@ -16,7 +16,7 @@ public class AdderTest {
 	public void testDefault2() {
 		Adder adder = new Adder();
 		int sum = adder.getDefaultSum();
-		assertEquals(sum, 5);
+		assertEquals(sum, 10);
 	}
 	
 	
