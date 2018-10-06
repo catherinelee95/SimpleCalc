@@ -11,8 +11,8 @@ public class Adder {
 		return a+b;
 	}
 	
-	public int getProduct(int a, int b) {
-		return a*b;
+	public int getQuotient(int a, int b) {
+		return a/b;
 	}
 
 }

@@ -21,6 +21,16 @@ public class AdderTest {
 		assertEquals(sum, 7);
 	}
 	
+	@Test
+	public void testQuotient() {
+		int a = 4;
+		int b = 0;
+		
+		Adder adder = new Adder();
+		int sum = adder.getQuotient(a, b);
+		assertEquals(sum, 2);
+	}
+	
 	
 	
 }
