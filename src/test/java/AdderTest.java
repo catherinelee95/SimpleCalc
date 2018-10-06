@@ -4,6 +4,18 @@ import org.junit.Test;
 
 public class AdderTest {
 	
+	
+	@Test
+	public void tesDiff() {
+		int a = 2;
+		int b = 1;
+		
+		Adder adder = new Adder();
+		int sum = adder.getDiff(a, b);
+		assertEquals(sum, 1);
+	}
+	
+	
 	@Test
 	public void testDefault() {
 		Adder adder = new Adder();
