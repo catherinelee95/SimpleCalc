@@ -11,7 +11,7 @@ public class AdderTest {
 		int b = 1;
 		
 		Adder adder = new Adder();
-		int sum = adder.getSum(a, b);
+		int sum = adder.getDiff(a, b);
 		assertEquals(sum, 1);
 	}
 	
@@ -36,7 +36,7 @@ public class AdderTest {
 	@Test
 	public void testQuotient() {
 		int a = 4;
-		int b = 0;
+		int b = 2;
 		
 		Adder adder = new Adder();
 		int sum = adder.getQuotient(a, b);
